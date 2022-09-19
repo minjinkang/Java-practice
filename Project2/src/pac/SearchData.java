@@ -1,0 +1,71 @@
+package pac;
+
+public class SearchData {
+   
+   String name;
+   int price;
+   String category;
+   String img;
+   String category2;
+   
+   public SearchData(String name, int price, String category, String img, String category2) {
+      
+      this.name = name;
+      this.price = price;
+      this.category = category;
+      this.img = img;
+      this.category2 = category2;
+   }
+
+   
+   public String getName() {
+      return name;
+   }
+
+
+   public void setName(String name) {
+      this.name = name;
+   }
+
+
+   public int getPrice() {
+      return price;
+   }
+
+
+   public void setPrice(int price) {
+      this.price = price;
+   }
+
+
+   public String getCategory() {
+      return category;
+   }
+
+   public void setCategory(String category) {
+      this.category = category;
+   }
+
+
+   public String getImg() {
+      return img;
+   }
+
+
+   public void setImg(String img) {
+      this.img = img;
+   }
+
+
+   public String getCategory2() {
+	return category2;
+   }
+
+
+   public void setCategory2(String category2) {
+	this.category2 = category2;
+   }
+
+   
+   
+}
