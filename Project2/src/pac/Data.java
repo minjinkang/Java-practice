@@ -9,6 +9,7 @@ public class Data {
 	public Data() {
 	}
     
+	
 	public Data(String name, int price, String img) {
 		this.name = name;
 		this.price = price;
